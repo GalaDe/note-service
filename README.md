@@ -1,6 +1,26 @@
 # note-api
 
-A small Spring Boot REST API for creating and retrieving notes.
+This project is a lightweight RESTful Notes Service built with Java 17 and Spring Boot. It was created as a refresher to revisit core Java concepts and modern Spring Boot development practices.
+
+The service demonstrates:
+
+- REST API design (POST, GET, list endpoints)
+- Clean layered architecture (Controller → Service → Repository)
+- Constructor-based dependency injection
+- DTO separation (Request vs Response models)
+- Bean validation (@Valid, @NotBlank, @Size)
+- Global exception handling
+- In-memory storage using ConcurrentHashMap
+- Unit testing with JUnit and Mockito
+
+The project was built primarily for:
+
+- Refreshing Java and Spring fundamentals
+- Practicing clean API design principles
+- Reinforcing understanding of dependency injection and application structure
+- Preparing for backend engineering interviews
+
+Although the current implementation uses in-memory storage for simplicity, the repository layer is designed to be easily replaced with a database-backed implementation (e.g., PostgreSQL).
 
 ## Tech stack
 
