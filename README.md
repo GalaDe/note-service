@@ -50,6 +50,10 @@ make run
 
 The app starts on `http://localhost:8080` by default.
 
+## Frontend screenshot
+
+![Frontend UI](docs/images/note-main-page-screenshot.png)
+
 ## Build and test
 
 ```bash
